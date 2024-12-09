@@ -30,6 +30,19 @@ São alterações que ocorrem na série de dados em intervalos não definidos. P
 
 Não possui uma relação matemática na série, sem padrão específico. Ex: interferência do atrito do substrato marinho na amplitude de maré.
 
+# Correlação
+
+É o estudo da relação entre duas váriáveis. A força dessa relação pode ser medida via coeficiente de Pearson com valores que variam de 1 a -1.  
+* 1: relação linear perfeita, ambas as variáveis ascendem ou decrescem simultaneamente.  
+* -1: perfeita correlação negativa, ou seja, enquanto uma variável aumenta a outra diminui.  
+* 0: variáveis independentes, sem correlação. Também é chamado de ruído branco.
+
+
+# Autocorrelação
+
+É a análise da relação de uma série temporal com seus próprios valores em intervalos de tempos diferentes(lag).  
+* Lag 1 correlaciona os valores do intervalo escolhido com os valores correspondente do intervalo anterior a ele.
+* Lag 2 correlaciona os valores do intervalo escolhido com os valores correspondente a dois intervalos anteriores a ele.
 
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
