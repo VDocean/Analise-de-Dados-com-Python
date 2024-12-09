@@ -15,7 +15,7 @@ Como o próprio nome sugere, séries temporais são o registro de algum dado ao 
 
 Refere-se ao comportamento dos dados a longo prazo que pode ser ascendente, descendente ou estável. Os tipos mais comuns são de tendência linear, constante e quadrada.  
 
-[![](img/tendencia em series temporais.png)](https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF) 
+!img/tendencia em series temporais.png
 
 **Sazonalidade**  
 
