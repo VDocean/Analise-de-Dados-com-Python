@@ -13,7 +13,10 @@ Como o próprio nome sugere, séries temporais são o registro de algum dado ao 
 
 **Tendência** 
 
-Refere-se ao comportamento dos dados ao longo do tempo que pode ser ascendente, descendente ou estável. Ex: faturamento de uma loja de acordo com o número de vendas.
+Refere-se ao comportamento dos dados a longo prazo que pode ser ascendente, descendente ou estável. Os tipos mais comuns são de tendência linear, constante e quadrada.  
+
+[![](<img width="476" alt="image" src="https://github.com/user-attachments/assets/b229076c-fc02-4d16-9f71-ac59be8801db">
+)](https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF) 
 
 **Sazonalidade**  
 
@@ -30,8 +33,7 @@ Não possui uma relação matemática na série, sem padrão específico. Ex: in
 
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
-  
-
+https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF  
 
 
 ## Etiquetas
