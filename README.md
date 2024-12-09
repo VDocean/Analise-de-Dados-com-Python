@@ -2,7 +2,7 @@
 # Introdução a Séries Temporais
  
 
-Como o próprio nome sugere, séries temporais são o registro de algum dado ao longo do tempo e quando analisados geram informação a cerca de determinado assunto. Como exemplo podemos citar o registro de temperatura da superfície do mar que são usados para prever eventos climáticos como ciclones, tempestades, frentes frias e el niño, entre outros. Exemplo:
+Como o próprio nome sugere, séries temporais são o registro de algum dado ao longo do tempo que quando analisados geram informação a cerca de determinado assunto. Como exemplo podemos citar o registro de temperatura da superfície do mar, usados para prever eventos climáticos como ciclones, tempestades, frentes frias, el niño, entre outros. Exemplo:
 
 
 
@@ -17,7 +17,7 @@ Refere-se ao comportamento dos dados ao longo do tempo que pode ser ascendente, 
 
 **Sazonalidade**  
 
-É a repetição de padrões ao longo de intervalos de tempo definidos como dias,meses ou anos. Ex: volume de chuva ao longo do ano.
+É a repetição de padrões ao longo de intervalos de tempo definidos como dias, meses ou anos. Ex: volume de chuva ao longo do ano.
 
 **Ciclo**  
 
