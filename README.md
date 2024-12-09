@@ -2,7 +2,7 @@
 # Introdução a Séries Temporais
  
 
-Como o próprio nome sugere, séries temporais são o registro de algum dado ao longo do tempo e quando analisados geram informação a cerca de determinado assunto. Como exemplo podemos citar o registro de temperatura da superfície do mar que são usados para prever eventos climáticos como ciclones, tempestades, frentes frias e el niño, entre outros. Exemplo:
+Como o próprio nome sugere, séries temporais são o registro de algum dado ao longo do tempo que quando analisados geram informação a cerca de determinado assunto. Como exemplo podemos citar o registro de temperatura da superfície do mar, usados para prever eventos climáticos como ciclones, tempestades, frentes frias, el niño, entre outros. Exemplo:
 
 
 
@@ -13,11 +13,14 @@ Como o próprio nome sugere, séries temporais são o registro de algum dado ao 
 
 **Tendência** 
 
-Refere-se ao comportamento dos dados ao longo do tempo que pode ser ascendente, descendente ou estável. Ex: faturamento de uma loja de acordo com o número de vendas.
+Refere-se ao comportamento dos dados a longo prazo que pode ser ascendente, descendente ou estável. Os tipos mais comuns são de tendência linear, constante e quadrada.  
+
+[![](<img width="476" alt="image" src="https://github.com/user-attachments/assets/b229076c-fc02-4d16-9f71-ac59be8801db">
+)](https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF) 
 
 **Sazonalidade**  
 
-É a repetição de padrões ao longo de intervalos de tempo definidos como dias,meses ou anos. Ex: volume de chuva ao longo do ano.
+É a repetição de padrões ao longo de intervalos de tempo definidos como dias, meses ou anos. Ex: volume de chuva ao longo do ano.
 
 **Ciclo**  
 
@@ -30,8 +33,7 @@ Não possui uma relação matemática na série, sem padrão específico. Ex: in
 
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
-  
-
+https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF  
 
 
 ## Etiquetas
