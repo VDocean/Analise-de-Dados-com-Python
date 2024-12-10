@@ -62,9 +62,9 @@ residuais. Ao usar esse conjunto de dados para tentar prever os valores de densi
 # Decomposição 
 
 Trata-se de separar cada um dos componentes de uma série temporal para compreendê-la melhor isolando valores de tedência, ciclo, sazonalidade e ruído.
-Um exemplo é decomposição da série histórica da concentração de dióxido de carbono na atmosfera indicado abaixo:
+Um exemplo é decomposição da série histórica da concentração de dióxido de carbono na atmosfera indicado abaixo:  
 
-![](/img/decomposicao.png) 
+[![](/img/decomposicao.png) ]
 
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
