@@ -44,6 +44,28 @@ Não possui uma relação matemática na série, sem padrão específico. Ex: in
 * Lag 1 correlaciona os valores do intervalo escolhido com os valores correspondente do intervalo anterior a ele.
 * Lag 2 correlaciona os valores do intervalo escolhido com os valores correspondente a dois intervalos anteriores a ele.
 
+# Regressão linear
+
+A regressão linear é uma técnica estatística que modela a relação entre uma variável dependente e uma ou mais variáveis independentes.
+Por exemplo temos a densidade da água do mar que depende dos valores de temperatura e salinidade. Portanto se tiver um conjunto de dados 
+com esses valores posso modelar a relação entre eles de forma a descrever o comportamento dessas propriedades da água do mar.
+Ao modelar essa relação é criado um conjunto de valores chamada de linha de ajuste e os valores da amostra usados para criá-la e que estão fora dos valores da linha de melhor ajuste são chamados de  
+residuais. Ao usar esse conjunto de dados para tentar prever os valores de densidade a partir de um conjunto já existente corro risco de existirem erros nesta estimativa que podem ser mensurados através da comparação entre o valor previsto e dados reais.
+
+**Algumas métricas de erros:**
+
+* Erro Médio Absoluto (MAE): média absoluta das diferenças entre os valores previstos e os valores reais observados. Dá o erro na unidade de interesse.
+* Erro Médio Quadrático (RMSE): é a raiz quadrada da média dos quadrados das diferenças entre os valores previstos e os valores observados.
+* Erro Médio Absoluto Escalado (MASE): é uma métrica que compara o erro absoluto médio do modelo com o erro absoluto médio de um modelo de referência.
+* Erro Médio Percentual Absoluto (MAPE): mede a precisão em termos percentuais, calculando a média dos erros percentuais absolutos.
+
+# Decomposição 
+
+Trata-se de separar cada um dos componentes de uma série temporal para compreendê-la melhor isolando valores de tedência, ciclo, sazonalidade e ruído.
+Um exemplo é decomposição da série histórica da concentração de dióxido de carbono na atmosfera indicado abaixo:
+
+![](/img/decomposicao.html) 
+
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
 https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF  
