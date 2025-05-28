@@ -66,6 +66,57 @@ Um exemplo é decomposição da série histórica da concentração de dióxido 
 
 ![](/img/decomposicao.png) 
 
+
+# Tipo de Dados e Visualização
+
+## Diferentes tipos de dados 
+
+**Qualitativo**  : se refere aos atributos não numéricos como cor, 
+**Quantitativo**: dados numérico. Exemplo: número de pessoas em uma plateia, temperatura corporal..
+**Ordinal**  : qualitativo e quantitativo ao mesmo tempo. Uso um valor numérico para expressar qualidade, por exemplo posnutação dos clientes referente a um produto.
+
+# Tipos de gráficos para dados quantitativos
+
+
+ **Gráfico de pizza** 
+
+  Usado para demonstrar percentagem de elementos que participam de um todo. Indicado quando a visualização dos dados exige menos precisão.
+
+![](/img/graficos%20de%20pízza.jpg) 
+
+**Gráfico de barras**  
+
+  Adequado para demonstrar categorias.
+
+![](/img/barras.png)
+
+**Gráfico de linhas**
+
+ Útil para séries temporais
+
+![](/img/Grafico-de-linhas-no-Excel.png)
+ 
+
+A análise pode ser somente de uma variável quantitativa ou da relação dela com relação a outras variáveis. 
+Para isto podem ser usados os gráficos a seguir:
+
+**Histograma**
+
+Gráfico de frequência
+
+![](/img/histograma.jpg)
+
+**Boxplot**
+
+![](/img/boxplot.png)
+
+Explicação sobre o gráfico boxplot 
+
+![](/img/explicação%20box%20plot.png)
+
+
+
+
 # Referências:  📚
 Fernando Amaral, Minerva Singh. Séries Temporais e Analises Preditivas com Python. Udemy: https://capgemini.udemy.com/course/series-temporais-com-python  
 https://www.maxwell.vrac.puc-rio.br/4244/4244_5.PDF  
@@ -78,4 +129,3 @@ Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
