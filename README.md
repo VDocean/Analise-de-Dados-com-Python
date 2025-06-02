@@ -185,7 +185,7 @@ diferença percentual absoluta de erro
 
 ![](/img/mape.png)
 
-## Séries Temporais
+## Séries Temporais Estacionárias
 
 Média e variância se matêm constante com o tempo.
 
