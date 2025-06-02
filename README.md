@@ -114,7 +114,89 @@ Explicação sobre o gráfico boxplot
 
 ![](/img/explicação%20box%20plot.png)
 
+# Características e Condições de Séries Temporais
 
+## Erros
+
+Diferença na comparação entre o valor previsto e medido.
+
+Formas de medir o erro:
+
+* Separando dados para testes
+* Avaliando após a ocorrência do evento
+* Com os próprios dados
+
+Técnicas para avaliar erros:
+
+## **Hold-out**
+
+Em uma serie de dados 70% dos dados são usados para construção do modelo e os 30% restante para teste do modelo construído.
+
+![](/img/houldout.jpg)
+
+## **Cross Validation**
+
+Consiste em dividir o conjunto de dados em um número de iteraçãoes e em cada iteração um conjunto de dados são usados para teste e o restante para treinamento.
+
+![](/img/CrossValidation.png)
+
+# Métricas de Erros em Previsões
+
+medem a diferença entre o erro e o acerto
+
+# **Erro médio (MSE)**
+
+*os dados precisam ser na mesma escala*
+
+é a média da diferença entre os valores medidos e simulados.
+Limitação: sujeito as variações positivas e negativas dos valores que podem se anular.
+
+![](/img/mse.png)
+
+# **Erro médio absoluto (MAE)**
+
+*dependemente de escala*
+
+média das diferenças absolutas entre o medido e o previsto.
+
+![](/img/mae.png)
+
+# **Erro quadrático médio (RMSE)**
+
+*Independe de escala*
+
+Desvio padrão do previsto e do medido
+
+![](/img/rmse2.png)
+
+# **Erro médio percentual**
+
+*independente de escala*
+
+diferença percentual de erro
+
+![](/img/mpe.png)
+
+# **Erro médio percentual absoluto**
+
+*Independe de escala*
+
+diferença percentual absoluta de erro
+
+![](/img/mape.png)
+
+## Séries Temporais
+
+Média e variância se matêm constante com o tempo.
+
+# Médias Móveis
+
+Processo de transformação de uma série através da retirada e de sazonalidade, tendências e outliers que resultam em uma suavização da série original. Dois tipos de métodos de aplicação de média móvel: simples e exponecial.
+
+A ordem de uma média móvel define qual o intervalo antes e depois do valor de 
+interesse serão usados para gerar a nova série.Quanto maior a ordem, maior a suavização.
+
+![](/img/mediamovel.png)
 
 
 # Referências:  📚
