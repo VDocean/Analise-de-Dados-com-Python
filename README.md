@@ -128,7 +128,7 @@ Formas de medir o erro:
 
 Técnicas para avaliar erros:
 
-## **Hold - out**
+## **/Hold-out/**
 
 Em uma serie de dados 70% dos dados são usados para construção do modelo e os 30% restante para teste do modelo construído.
 
