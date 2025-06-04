@@ -148,7 +148,7 @@ medem a diferença entre o erro e o acerto
 
 *os dados precisam ser na mesma escala*
 
-é a média da diferença entre os valores medidos e simulados.
+é a média da diferença entre os valores medidos e simulados.  
 Limitação: sujeito as variações positivas e negativas dos valores que podem se anular.
 
 ![](/img/mse.png)
@@ -165,7 +165,7 @@ média das diferenças absolutas entre o medido e o previsto.
 
 *Independe de escala*
 
-Desvio padrão do previsto e do medido
+Desvio padrão do previsto e do dado medido
 
 ![](/img/rmse2.png)
 
@@ -191,7 +191,7 @@ Média e variância se matêm constante com o tempo.
 
 # Médias Móveis
 
-Processo de transformação de uma série através da retirada e de sazonalidade, tendências e outliers que resultam em uma suavização da série original. Dois tipos de métodos de aplicação de média móvel: simples e exponecial.
+Processo de transformação de uma série através da retirada de sazonalidade, tendências e outliers.Essas transformações resultam em uma suavização da série original. Dois tipos de métodos de aplicação de média móvel: simples e exponecial.
 
 A ordem de uma média móvel define qual o intervalo antes e depois do valor de 
 interesse serão usados para gerar a nova série.Quanto maior a ordem, maior a suavização.
